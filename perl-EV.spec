@@ -4,10 +4,10 @@
 #
 Name     : perl-EV
 Version  : 4.32
-Release  : 5
+Release  : 6
 URL      : https://cpan.metacpan.org/authors/id/M/ML/MLEHMANN/EV-4.32.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/ML/MLEHMANN/EV-4.32.tar.gz
-Summary  : perl interface to libev, a high performance full-featured event loop
+Summary  : unknown
 Group    : Development/Tools
 License  : Artistic-1.0 BSD-2-Clause GPL-1.0
 Requires: perl-EV-license = %{version}-%{release}
@@ -74,7 +74,6 @@ EV::run EV::RUN_NOWAIT; # try to handle same events, but do not block
 Summary: dev components for the perl-EV package.
 Group: Development
 Provides: perl-EV-devel = %{version}-%{release}
-Requires: perl-EV = %{version}-%{release}
 Requires: perl-EV = %{version}-%{release}
 
 %description dev
@@ -158,9 +157,9 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/EV.pm
-/usr/lib/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/EV/EVAPI.h
-/usr/lib/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/EV/MakeMaker.pm
-/usr/lib/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/EV/ev.h
-/usr/lib/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/EV/libev.pod
-/usr/lib/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/EV/EV.so
+/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/EV.pm
+/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/EV/EVAPI.h
+/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/EV/MakeMaker.pm
+/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/EV/ev.h
+/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/EV/libev.pod
+/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/EV/EV.so
